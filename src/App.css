@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#22254b;
+    --secondary-color: #373b69;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+	color: white;
+}
+
+
+.movie-app > .row {
+	
+	flex-wrap: wrap;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+.image-container:hover .overlay2 {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.945);
+	width: 100%;
+	transition: 0.3s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.overlay2 {
+	position: absolute;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.945);
+	width: 100%;
+	transition: 0.3s ease;
+	opacity: 0;
+	top: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.details {
+	
+	background: rgba(0, 0, 0, 0.568);
+	color: blanchedalmond !important;
+	width: 100%;
+	opacity: 1;
+	top: 0;
+	font-size: 20px;
+	padding: 20px;
+	
+}
+
+.jumbotron{
+	padding: 2rem 1rem
+}
+
+.text h1{
+	font-size: 3.5rem;
+	margin: 0;
+}
+
+.text h3{
+	font-size: 2rem;
+	
+}
+
+.text p{
+	font-size: 0.9rem;
+	display: inline-block;
+
+}
+
+
+
