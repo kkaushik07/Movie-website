@@ -67,8 +67,8 @@ const App = (props) => {
 
 		<div className='container-fluid movie-app'>
 			<ul class="nav justify-content-start">
-  <li class="nav-item nav-link" onClick={()=>{setShowMovie(true);setShowFavorites(false)}}>Movies</li> 
-  <li class="nav-item nav-link" onClick={()=>{setShowMovie(false);setShowFavorites(true)}}>
+  <li class="nav-item nav-link" style={{cursor:'pointer'}} onClick={()=>{setShowMovie(true);setShowFavorites(false)}}>Movies</li> 
+  <li class="nav-item nav-link" style={{cursor:'pointer'}} onClick={()=>{setShowMovie(false);setShowFavorites(true)}}>
     Favourites
   </li>
   
